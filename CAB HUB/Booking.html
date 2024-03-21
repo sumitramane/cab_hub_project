@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="background-text">
+
+        </div>
+        <header class="header">
+            <a href="#" id="logo"><img src="images/CabHUB.png" alt=""></a>
+            <nav class="navbar">
+                <a href="home.html">home</a>
+                <a href="ourcars.html">Our Cabs</a>
+                <a href="about.html">About Us</a>
+                <a href="Gallary.html">Customer Gallary</a>
+                <a href="Booking.html">Book Cab</a>
+                <a href="feedback.html">Feedback</a>
+            </nav>
+            <a href="#" id="menu-bars" class="fas fa-bars"></a>
+        </header>
+        <div class="home-container">
+            <div class="home-content">
+                <div class="inner-content">
+                    <h3>best in city</h3>
+                    <h2>trusted cab service</h2>
+                    <p></p>
+
+                </div>
+                <div class="inner-content">
+
+                    <div class="contact-form">
+                        <div class="form-heading">
+                            <h1>book a cab</h1>
+                        </div>
+
+
+                        <div class="form-fields">
+                            <form action="sumit.php" method="POST">
+
+                                <input type="text" id="fname" name="Name" placeholder=" Name" required>
+
+                                <input type="tel" id="fname" name="Mobile_No" pattern="[0-9]{10}" placeholder="Mobile No." required>
+
+
+                                <div class="datalist-holder">
+                                    <input list="city" id="fname" name="From_city" placeholder="From city" required>
+                                    <datalist id="city">
+                                        <option value="Mumbai city" />
+                                        <option value="Latur" />
+                                        <option value="Nahik" />
+                                        <option value="Raigad" />
+                                        <option value="Wardha" />
+                                        <option value="Ratnagiri" />
+                                        <option value="Palghar" />
+                                        <option value="Thane" />
+                                        <option value="Pune" />
+                                        <option value="Jalana" />
+                                        <option value="Sindhudurg" />
+                                        <option value="Sangali" />
+                                        <option value="Nagpur" />
+                                        <option value="Malavan" />
+                                        <option value="Kolhapur" />
+                                        <option value="Satara" />
+                                        <option value="Sangali" />
+                                        <option value="Nagpur" />
+                                        <option value="Parbhani" />
+                                        <option value="solapur" />
+                                        <option value="Beed" />
+                                    </datalist>
+                                    <input list="city" id="fname" name="To_city" placeholder="To city" required>
+                                    <datalist id="city">
+                                        <option value="Mumbai city" />
+                                        <option value="Latur" />
+                                        <option value="Nahik" />
+                                        <option value="Raigad" />
+                                        <option value="Wardha" />
+                                        <option value="Ratnagiri" />
+                                        <option value="Palghar" />
+                                        <option value="Thane" />
+                                        <option value="Pune" />
+                                        <option value="Jalana" />
+                                        <option value="Sindhudurg" />
+                                        <option value="Sangali" />
+                                        <option value="Nagpur" />
+                                        <option value="Malavan" />
+                                        <option value="Kolhapur" />
+                                        <option value="Satara" />
+                                        <option value="Sangali" />
+                                        <option value="Nagpur" />
+                                        <option value="Parbhani" />
+                                        <option value="solapur" />
+                                        <option value="Beed" />
+                                    </datalist>
+
+                                </div>
+                                <input type="address" id="fname" name="Pick-up_point" placeholder="Pick-up_point" required>
+
+                                <input type="location" id="fname" name="Drop-up_point" placeholder="Drop-up_Point" required><br>
+
+                                <input type="Time" id="fname" name="Time" placeholder="Time" required>
+
+                                <input type="date" name="Date" placeholder="Date" required>
+                                <br>
+
+                                <input type="submit" value="Submit" name="save" style="background-color: orange; border-radius: 10px;" class="btn">
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
